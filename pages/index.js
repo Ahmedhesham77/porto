@@ -18,7 +18,7 @@ const Home = () => {
     <div className="bg-primary/60 h-full">
       {/* text */}
       <div className=" w-full h-[95%] bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
-        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto lg:flex-row lg:justify-between lg:pt-20">
+        <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto lg:flex-row lg:justify-between lg:pt-20 xs:justify-evenly">
           <div className="mt-[2.5rem] ">
             <motion.h1
               variants={fadeIn("down", 0.2)}
