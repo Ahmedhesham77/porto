@@ -24,10 +24,10 @@ const servicesData = [
 
 const Services = () => {
   return (
-    <div className="py-12 bg-gray-900 text-white h-[100%] overflow-y-auto">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 ">
+    <div className="py-12 bg-gray-900 text-white h-[100vh] overflow-y-auto">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 mb-6">
         {/* Section Header */}
-        <div className="text-center mb-10">
+        <div className="text-center mb-8 mt-2">
           <h2 className="text-3xl sm:text-4xl font-bold text-accent">My Services</h2>
           <p className="mt-3 text-gray-400 text-sm sm:text-base">
             I provide a range of specialized services in web application and website development using the latest technologies.
