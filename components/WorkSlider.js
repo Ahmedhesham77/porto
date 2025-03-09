@@ -11,11 +11,7 @@ const workSlides = [
     path: "/ugglebogrill.png",
     link: "https://ugglebogrill.com/en/",
   },
-  {
-    title: "Purple Admin Dashboard",
-    path: "/demo.bootstrapdash.com_purple-.png",
-    link: "https://demo.bootstrapdash.com/purple-admin-free/",
-  },
+
   {
     title: "LiveKleenly",
     path: "/livekleenly.png",
@@ -24,7 +20,7 @@ const workSlides = [
   {
     title: "Corona Dashboard",
     path: "/demo.bootstrapdash.com_corona.png",
-    link: "https://demo.bootstrapdash.com/corona-free/jquery/template/index.html",
+    link: "https://bootsrtapdashboard-46ak.vercel.app/",
   },
   {
     title: "Stensatra Pizza",
@@ -32,14 +28,19 @@ const workSlides = [
     link: "https://xn--stenstrapizza-ffb.com/",
   },
   {
-    title: "Majestic Dashboard",
-    path: "/demo.bootstrapdash.com_majesti.png",
-    link: "https://demo.bootstrapdash.com/majestic-free/template/index.html",
+    title: "Food App",
+    path: "/fa.png",
+    link: "https://food-app-puce-theta.vercel.app/",
   },
   {
     title: "Real State Project",
     path: "/real-state-phi-hazel.vercel.png",
     link: "https://real-state-phi-hazel.vercel.app/?vercelToolbarCode=fa0s3FNqyLqKMEh",
+  },
+  {
+    title: "Pizza Shop",
+    path: "/ps.png",
+    link: "https://pizza-shop-ecru.vercel.app/",
   },
 ];
 

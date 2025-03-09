@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className="bg-primary/60 h-full">
       {/* text */}
-      <div className=" w-full h-[95%] bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
+      <div className=" w-full h-[100%] bg-gradient-to-r from-primary/10 via-black/30 to-black/10">
         <div className="text-center flex flex-col justify-center xl:pt-40 xl:text-left h-full container mx-auto lg:flex-row lg:justify-between lg:pt-20 xs:justify-evenly">
           <div className="mt-[2.5rem] ">
             <motion.h1
@@ -48,7 +48,7 @@ const Home = () => {
       {/* image */}
       <div className="w-[1200px] h-full absolute right-0 bottom-0">
         {/* bg img */}
-        <div className="bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute
+        <div className="bg-none  xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute
       mix-blend-lighten
       translate-z-0">
           {/*particles */}
@@ -58,7 +58,7 @@ const Home = () => {
             variants={fadeIn("up", 0.5)} initial="hidden" animate="show" exit="hidden" transition={{ duration: 1, ease: "easeInOut" }}
 
             className="w-full h-full max-w-[587px] max-h-[528px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]">
-            <Avatar />
+
           </motion.div>
         </div>
       </div>
